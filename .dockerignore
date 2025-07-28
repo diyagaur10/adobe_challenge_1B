@@ -1,0 +1,28 @@
+# --- Git ---
+# Ignore the .git directory and .gitignore file
+.git/
+.gitignore
+
+# --- Python ---
+# Ignore the virtual environment directory
+venv/
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Local Development & Environment ---
+# Ignore local environment variables
+.env
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# --- Build & Output ---
+# Ignore local output files from previous runs
+output/
+
+# --- OS Specific ---
+# Ignore macOS specific files
+.DS_Store
